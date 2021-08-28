@@ -12,8 +12,8 @@
   /* Favicon Colors */
   --big-d: #00b7ff;
   --cessna: #5e5e5e;
-  --orange-sun: #F15A24;
-  --yellow-sun: #FCEE21;
+  --orange-sun: #f15a24;
+  --yellow-sun: #fcee21;
   /* Custom Webpage Colors */
   --pale-green: #e1eedd;
   --mando-blue: #1857a4;
@@ -43,4 +43,83 @@ footer {
   right: 0;
   /* width: 100%; */
   /* color: #fff; */
+}
+
+h1,
+.f1,
+h2,
+.f2,
+h3,
+.f3,
+h4,
+.f4,
+h5,
+.f5,
+h6,
+.f6 {
+  font-family: 'Alliance No.1';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+
+.mb-1 {
+  margin-bottom: 2px;
+}
+.text-normal {
+  font-weight: 400;
+}
+
+.height-auto {
+  height: auto;
+}
+.mr-auto {
+  margin-right: auto;
+}
+.ml-auto {
+  margin-left: auto;
+}
+.rounded-3 {
+  border-radius: 9px;
+}
+
+.container {
+  width: auto;
+  max-width: 1600px;
+}
+
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.75);
+  background-clip: padding-box;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.05);
+  -webkit-backdrop-filter: blur(15px);
+}
+
+.header-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.page-title {
+  font-size: 3rem;
+}
+
+.post {
+  font-size: 14px;
+}
+@media (min-width: 1024px) {
+  .post {
+    font-size: 16px;
+  }
 }
