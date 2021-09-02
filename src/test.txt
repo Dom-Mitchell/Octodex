@@ -1,4 +1,4 @@
-root {
+:root {
   font: 16px / 1 sans-serif;
   /* SDG Colors */
   --bright-sky: #80ced2;
@@ -26,14 +26,14 @@ html {
 
 body {
   margin: 0;
-  min-height: 100%;
+  /* min-height: 100%; */
   background-color: #fafbfc;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
     sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
 
 header {
-  /* display: flex; */
+  display: flex;
   position: sticky;
   top: 0;
   background-color: rgba(255, 255, 255, 0.75);
@@ -41,11 +41,12 @@ header {
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
   box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.05);
   margin-bottom: 40px;
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
+
   width: 100%;
-  height: 70px;
-  /* justify-content: center;
-  align-items: center; */
+  height: 65px;
+  /* justify-content: center; */
+  /* vertical-align: center; */
 }
 
 nav {
@@ -56,8 +57,8 @@ nav {
 
 header nav div {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .logo {
@@ -73,6 +74,7 @@ header nav div {
 
 header h1 {
   font-size: 16px;
+  /* font-weight: bold; */
 }
 
 header a {
@@ -85,6 +87,14 @@ header a {
 .nav-item > a {
   margin: 0px 16px;
 }
+
+/* .nav-item:nth-child(2) a {
+  padding-left: 400p;
+} */
+
+/* nav-item a:hover {
+  text-decoration: underline;
+} */
 
 .octocat-container {
   padding: 0 24px;
@@ -120,16 +130,13 @@ figure img {
 }
 
 .item-footer span {
-  font-family: 'Alliance No.1';
   margin-right: 4px;
-  font-size: 20px;
+  font-size: 14px;
   color: #586069;
 }
 
 .item-footer a {
-  /* font-family: 'Alliance No.1'; */
   font-weight: 600;
-  font-size: 20px;
   color: #24292e;
   text-decoration: none;
 }
@@ -149,14 +156,6 @@ footer p {
   margin-bottom: 10px;
   color: #586069;
   font-size: 14px;
-}
-
-.nav-item a:hover {
-  text-decoration: underline;
-}
-
-.item-footer a:hover {
-  color: #0366d6;
 }
 
 @media all and (min-width: 544px) and (max-width: 1011px) {
@@ -181,4 +180,18 @@ footer p {
   .octocat-container > div {
     width: 22%;
   }
+}
+
+@media all and (min-width: 1024px) {
+  .octocat-container > div {
+    width: 27%;
+  }
+}
+
+.nav-item a:hover {
+  text-decoration: underline;
+}
+
+.item-footer a:hover {
+  color: #0366d6;
 }
