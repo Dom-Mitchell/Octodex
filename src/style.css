@@ -79,11 +79,6 @@ header h1 {
   font-size: 16px;
 }
 
-.title h1 {
-  font-size: 48px;
-  font-weight: 600;
-}
-
 header a {
   color: #24292e;
   line-height: 1.5;
@@ -210,4 +205,55 @@ footer p {
   .octocat-container > div {
     width: 22%;
   }
+}
+
+.container {
+  padding: 24px;
+  margin-left: 150px;
+  margin-right: 150px;
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.title {
+  margin-bottom: 40px;
+  margin-left: 0;
+}
+
+.title h1 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.title p {
+  /* font-family: 'Alliance No.1'; */
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.questions {
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+.questions > *:first-child {
+  margin-top: 0;
+}
+
+.questions h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #eaecef;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.questions p {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 20px;
 }

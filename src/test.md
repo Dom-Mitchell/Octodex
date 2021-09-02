@@ -1,4 +1,6 @@
-<div class="octocat-container">
+<!-- Used as a reference -->
+
+<!-- <div class="octocat-container">
       <div class="individual-cat">
         <figure>
           <a href="https://octodex.github.com/octoqueer/">
@@ -25,4 +27,4 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
