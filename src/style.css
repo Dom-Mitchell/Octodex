@@ -32,15 +32,6 @@ body {
     sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
 
-/* .container {
-  flex-direction: column;
-  justify-content: space-between;
-  align-content: center;
-  align-items: normal;
-  margin: auto;
-  position: sticky;
-} */
-
 header {
   position: sticky;
   top: 0;
@@ -67,7 +58,6 @@ header nav div {
 
 .logo {
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
 }
 
@@ -89,14 +79,6 @@ header a {
 .nav-item > a {
   margin: 0px 16px;
 }
-
-/* .nav-item:first-child a:first-child(1) {
-  color: blue;
-}
-
-.nav-item:last-child a:first-child {
-  margin-left: auto;
-} */
 
 .octocat-container {
   padding: 0 24px;
@@ -139,7 +121,6 @@ figure img {
 }
 
 .item-footer a {
-  /* font-family: 'Alliance No.1'; */
   font-weight: 600;
   font-size: 20px;
   color: #24292e;
@@ -175,16 +156,9 @@ footer p {
   .octocat-container > div {
     width: 40%;
   }
-
-  /* header > nav {
-    width: 40%;
-  }
-
-  footer > div {
-    width: 40%;
-  } */
 }
 
+/* Media Queries */
 @media all and (max-width: 768px) {
   #nav-item-to-hide {
     display: none;
@@ -207,14 +181,11 @@ footer p {
   }
 }
 
+/* Trivia Page */
 .container {
   padding: 24px;
   margin-left: 150px;
   margin-right: 150px;
-  /* display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center; */
 }
 
 .title {
@@ -230,7 +201,6 @@ footer p {
 }
 
 .title p {
-  /* font-family: 'Alliance No.1'; */
   font-size: 30px;
   margin-top: 0;
   margin-bottom: 10px;
