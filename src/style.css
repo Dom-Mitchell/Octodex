@@ -32,8 +32,16 @@ body {
     sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
 
+/* .container {
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  align-items: normal;
+  margin: auto;
+  position: sticky;
+} */
+
 header {
-  /* display: flex; */
   position: sticky;
   top: 0;
   background-color: rgba(255, 255, 255, 0.75);
@@ -41,17 +49,14 @@ header {
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
   box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.05);
   margin-bottom: 40px;
-  /* box-sizing: border-box; */
-  width: 100%;
-  height: 70px;
-  /* justify-content: center;
-  align-items: center; */
+  padding: 10px 0px 10px 0;
 }
 
 nav {
   padding: 0 24px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 header nav div {
@@ -62,9 +67,8 @@ header nav div {
 
 .logo {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
-  margin: 16px 24px 16px 0;
 }
 
 .logo svg {
@@ -73,6 +77,11 @@ header nav div {
 
 header h1 {
   font-size: 16px;
+}
+
+.title h1 {
+  font-size: 48px;
+  font-weight: 600;
 }
 
 header a {
@@ -85,6 +94,14 @@ header a {
 .nav-item > a {
   margin: 0px 16px;
 }
+
+/* .nav-item:first-child a:first-child(1) {
+  color: blue;
+}
+
+.nav-item:last-child a:first-child {
+  margin-left: auto;
+} */
 
 .octocat-container {
   padding: 0 24px;
@@ -163,11 +180,23 @@ footer p {
   .octocat-container > div {
     width: 40%;
   }
+
+  /* header > nav {
+    width: 40%;
+  }
+
+  footer > div {
+    width: 40%;
+  } */
 }
 
 @media all and (max-width: 768px) {
   #nav-item-to-hide {
     display: none;
+  }
+
+  .nav-item:last-child a:first-child {
+    margin-right: 16px;
   }
 }
 
