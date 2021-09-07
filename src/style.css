@@ -1,4 +1,4 @@
-root {
+:root {
   font: 16px / 1 sans-serif;
   /* SDG Colors */
   --bright-sky: #80ced2;
@@ -14,10 +14,29 @@ root {
   --cessna: #5e5e5e;
   --orange-sun: #f15a24;
   --yellow-sun: #fcee21;
+  --cyan-ocean: #00bfe9;
+  --blue-ocean: #00217f;
   /* Custom Webpage Colors */
   --pale-green: #e1eedd;
   --mando-blue: #1857a4;
   --slate: #c8d8e4;
+  /* Auto Colors */
+  --beau-blue: #c8d8e4ff;
+  --honeydew: #e1eeddff;
+  --lapis-lazuli: #336699ff;
+  --charcoal: #2f4858ff;
+  --international-orange-aerospace: #fe5d26ff;
+  --amazon: #4a7c59ff;
+  --copper: #a8763eff;
+  --bdazzled-blue: #1857a4ff;
+  --byzantium: #7a3b69ff;
+  /* Custom Text Colors */
+  font-family: 'Open Sans';
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  --bg-primary: #23232e;
+  --bg-secondary: #141418;
+  --transition-speed: 600ms;
 }
 
 html {
